@@ -1,0 +1,10 @@
+{
+  "LogGroupName": "/aws/lambda/your-lambda-function",
+  "MetricTransformations": [
+    {
+      "MetricName": "SentimentAnalysisInvocationCount",
+      "MetricNamespace": "TwitterSentiment",
+      "MetricValue": "1"
+    }
+  ]
+}
